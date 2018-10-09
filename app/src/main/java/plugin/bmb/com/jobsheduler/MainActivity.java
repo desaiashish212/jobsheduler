@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btnCancel;
     ComponentName mServiceComponent;
     private static int jobId = 0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

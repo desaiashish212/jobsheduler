@@ -11,8 +11,6 @@ import java.util.LinkedList;
 
 public class DemoJobService  extends JobService {
     private static final String TAG = "DemoJobService";
-
-
     @Override
     public boolean onStartJob(JobParameters params) {
         Log.i(TAG, "onStartJob: " + params.getJobId());
